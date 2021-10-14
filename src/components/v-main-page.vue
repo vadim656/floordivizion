@@ -1,5 +1,6 @@
 <template>
-  <div class="grid min-h-72 px-2">
+  <div class="grid h-full">
+    <VHeaderTop/>
     <VOffer></VOffer>
     <VSlider></VSlider>
     <VFooter></VFooter>
@@ -11,13 +12,16 @@
 import VOffer from '@/components/v-offer.vue'
 import VSlider from '@/components/v-slider.vue'
 import VFooter from '@/components/v-footer'
+import VHeaderTop from './v-header-top.vue'
+
 
 export default {
   name: 'Home',
   components: {
     VOffer,
     VSlider,
-    VFooter
+    VFooter,
+    VHeaderTop
   }
 }
 </script>

@@ -1,46 +1,20 @@
 @import './_adaptive.sass'
 
-body
-    height: 100%
-    
-    
-.grid
-    display: grid
-    height: 100%
-    grid-template-columns: 1fr 1fr 1fr
-    grid-template-rows: 1fr 1fr 80px
-    grid-template-areas: 'o1 o3 o3' 'o2 o3 o3' 'footer footer footer'
-    +mobile
-        padding: 0
-        width: 100%
-        margin: 0 auto
-        grid-template-columns: 100%
-        grid-template-rows: auto
-        grid-template-areas: 'o1' 'o2' 'o3' 'footer'
+html, body
+  height: 100%
 
-.v-offer-text
-    grid-area: o1
-    display: flex
-    height: 100%
-    align-items: center 
-    padding-left: 50px   
-    +mobile
-        max-width: 320px
-        width: 100%
-        margin: 0 auto
-        padding: 0
-        padding-top: 150px
+body 
+  display: flex
+  flex-direction: column
 
-.v-offer-block
-    grid-area: o2 
-    padding-left: 50px
-    +mobile
-        padding: 0
-        max-width: 320px
-        width: 100%
-        margin: 0 auto
-        padding-left: 0
-        padding-top: 50px
+#app
+  flex: 1 0 auto
+  padding: 20px
+
+.footer
+  padding: 20px
+     
+    
 
 .nav_bar
     grid-area: header
@@ -53,19 +27,6 @@ body
         margin: 0 auto
         width: 100vw
         
-
-
-.v-offer-slider
-    grid-area: o3  
-
-.footer
-    grid-area: footer  
-    padding-bottom: 30px  
-    padding: 0 50px
-    +mobile
-        justify-content: center
-        padding: 25px 0
-
 .modal-overlay
     position: absolute
     top: 0

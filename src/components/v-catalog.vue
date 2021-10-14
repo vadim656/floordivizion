@@ -7,7 +7,6 @@
     </div>
   </div>
   <VCatalogItems />
-  <!-- /.container -->
 </template>
 
 <script>

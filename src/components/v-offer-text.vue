@@ -1,5 +1,5 @@
 <template>
-  <div class="offer_text">
+  <div class="text-sm flex justify-center pt-4">
     <span>
       Оборудование и материалы <br />
       от ведущих мировых производителей
@@ -10,6 +10,4 @@
 export default {}
 </script>
 <style lang="sass">
-span
-    font-size: 24px
 </style>

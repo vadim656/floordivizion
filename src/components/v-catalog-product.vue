@@ -2,7 +2,7 @@
   <div
     class="flex bg-white shadow-md pb-2 
     overflow-hidden flex-col justify-items-center 
-    items-center rounded-lg lg:w-1/4 md:m-2 lg:m-2 m-4"
+    items-center rounded-lg md:w-1/2 lg:w-1/4 md:m-2 lg:m-2 m-4"
   >
     <img src="../img/Rectangle1.webp" alt="" />
     <span>Name product</span>
