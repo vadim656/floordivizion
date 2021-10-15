@@ -1,8 +1,8 @@
 <template>
-  <div class="footer">
-    <a href="" class="progect_link">проекты</a
+  <div class="footer flex ">
+    <a href="" class="progect_link uppercase ">проекты</a
     ><!-- /.progect_link -->
-    <svg
+    <svg class="pl-2"
       width="25"
       height="25"
       viewBox="0 0 25 25"
@@ -40,28 +40,5 @@
 export default {}
 </script>
 <style lang="sass">
-.footer
-    display: flex
-    align-items: center
-    a
-        text-decoration: none
-        font-size: 18px
-        text-transform: uppercase
-        color: #212121
 
-        // &::after
-        //     content: ''
-        //     width: 95px
-        //     position: absolute
-        //     display: block
-        //     height: 1px
-        //     left: 50px
-        //     z-index: 6
-        //     background-color: #212121
-        //     transition: all .6s cubic-bezier(.45,-0.58,.67,1.51)
-        // &:hover
-        //     &::after
-        //         width: 8%
-    svg
-        padding-left: 10px
 </style>
