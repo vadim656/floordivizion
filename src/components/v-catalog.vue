@@ -1,21 +1,22 @@
 <template>
+  <VCatalogName/>
   <div class="container mt-2">
-    <div class="w-full h-full h-6 bg-gray-200 px-5 py-5">
-      <h3 class="w-full text-center text-warm-gray-900 font-bold text-6xl">
-        Каталог
-      </h3>
+    <div class="flex flex-wrap w-full justify-center mx-auto md:-ms-2 lg:-mx-2 mt-4">
+      <VCatalogProduct />
+      <VCatalogProduct />
+      <VCatalogProduct />
     </div>
   </div>
-  <VCatalogItems />
 </template>
 
 <script>
-import VCatalogItems from './v-catalog-items.vue'
+import VCatalogProduct from './v-catalog-product.vue'
+import VCatalogName from './v-catalog-name.vue'
+
 export default {
   components: {
-    VCatalogItems
+    VCatalogProduct,
+    VCatalogName
   }
 }
 </script>
-
-<style></style>

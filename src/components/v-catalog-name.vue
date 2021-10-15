@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full  flex flex-col items-center bg-gray-600 h-auto  p-4 lg:h-40 justify-center"
+    class="w-full flex flex-col items-center bg-gray-600 h-auto  p-4 lg:h-40 justify-center"
   >
     <h3 class="text-4xl text-white">Стенды</h3>
     <div
@@ -34,5 +34,3 @@
 <script>
 export default {}
 </script>
-
-<style></style>

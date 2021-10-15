@@ -1,5 +1,5 @@
 <template>
-  <div class="footer flex ">
+  <router-link to="/project" class="footer flex ">
     <a href="" class="progect_link uppercase ">проекты</a
     ><!-- /.progect_link -->
     <svg class="pl-2"
@@ -34,7 +34,7 @@
         </clipPath>
       </defs>
     </svg>
-  </div>
+  </router-link>
 </template>
 <script>
 export default {}

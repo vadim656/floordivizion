@@ -1,5 +1,5 @@
 <template>
-  <div class="grid h-full">
+  <div class="grid grid-cols-1 lg:grid-cols-2 h-full">
     <VOffer></VOffer>
     <VSlider></VSlider>
   </div>

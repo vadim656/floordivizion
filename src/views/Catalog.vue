@@ -1,21 +1,15 @@
 <template>
-  <VCatalogName/>
-  <div class="container mt-2">
-    <div class="flex flex-wrap w-full justify-center mx-auto md:-ms-2 lg:-mx-2 mt-4">
-      <VCatalogProduct />
-      <VCatalogProduct />
-      <VCatalogProduct />
-    </div>
-  </div>
+  <VCatalog/>
 </template>
 
 <script>
-import VCatalogProduct from '@/components/v-catalog-product.vue'
-import VCatalogName from '@/components/v-catalog-name.vue'
+
+import VCatalog from '@/components/v-catalog.vue'
+
 export default {
   components: {
-    VCatalogProduct,
-    VCatalogName
+    VCatalog
+
   }
 }
 </script>
