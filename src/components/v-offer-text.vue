@@ -1,5 +1,5 @@
 <template>
-  <div class="text-sm flex justify-center pt-4">
+  <div class="text-sm flex justify-start pt-4">
     <span>
       Оборудование и материалы <br />
       от ведущих мировых производителей

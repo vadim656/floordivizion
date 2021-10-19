@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-2 h-full">
+  <div class="main flex items-center">
     <VOffer></VOffer>
     <VSlider></VSlider>
   </div>
@@ -20,4 +20,7 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="sass">
+.main
+  height: calc(100vh - 200px)
+</style>

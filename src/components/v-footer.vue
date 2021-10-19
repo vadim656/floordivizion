@@ -40,5 +40,7 @@
 export default {}
 </script>
 <style lang="sass">
-
+.footer
+  position: absolute
+  bottom: 0  
 </style>
