@@ -3,9 +3,7 @@
     class="container flex flex-col v-offer-slider h-full lg:flex-row lg:items-center lg:pl-14"
   >
     <div class="justify-between flex flex-col mt-4">
-      <router-link
-        to="/stand"
-        class="text-4xl pb-2 lg:text-9xl font-bold my-2 "
+      <router-link to="/stand" class="text-4xl pb-2 lg:text-9xl font-bold my-2 "
         >Стенды</router-link
       >
       <router-link

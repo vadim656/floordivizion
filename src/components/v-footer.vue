@@ -1,8 +1,6 @@
 <template>
   <router-link to="/project" class="footer flex ">
-    <a href="" class="progect_link uppercase ">проекты</a
-    ><!-- /.progect_link -->
-    <svg class="pl-2"
+    <a href="" class="progect_link uppercase fixed flex items-center bottom-6">проекты <svg class=""
       width="25"
       height="25"
       viewBox="0 0 25 25"
@@ -33,7 +31,9 @@
           <rect width="25" height="25" fill="white" />
         </clipPath>
       </defs>
-    </svg>
+    </svg></a
+    ><!-- /.progect_link -->
+    
   </router-link>
 </template>
 <script>

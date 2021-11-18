@@ -5,7 +5,6 @@
       <router-view></router-view>
     </transition>
 
-
     <VFooter />
   </div>
 </template>
